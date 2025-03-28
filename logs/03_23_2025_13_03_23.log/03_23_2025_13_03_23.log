@@ -1,0 +1,23 @@
+[ 2025-03-23 13:03:33,407 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.14:5000
+[ 2025-03-23 13:03:33,407 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2025-03-23 13:03:33,407 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-23 13:16:05,555 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-23 13:26:07,957 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-23 13:26:28,420 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-23 13:27:52,132 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-23 13:34:01,583 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-23 13:34:19,711 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-23 13:34:53,662 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-23 13:35:20,713 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-23 13:36:37,221 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-23 13:37:31,001 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-23 13:37:52,755 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-23 13:38:03,306 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-23 13:40:44,205 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-23 13:40:57,229 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-23 13:42:45,272 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-23 13:43:18,669 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2025-03-23 13:43:49,188 ] 97 werkzeug - INFO -  * Restarting with stat

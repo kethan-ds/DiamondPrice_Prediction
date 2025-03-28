@@ -1,0 +1,5 @@
+[ 2025-03-28 16:31:49,751 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-03-28 16:31:49,751 ] 97 werkzeug - INFO -  * Debugger PIN: 330-374-573
+[ 2025-03-28 16:31:50,579 ] 67 root - INFO - Dataframe Gathered
+[ 2025-03-28 16:31:50,751 ] 97 werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 16:31:50] "POST /predict HTTP/1.1" 200 -
+[ 2025-03-28 16:32:05,724 ] 97 werkzeug - INFO -  * Detected change in 'C:\\DataScience\\Kethan_Projects\\DiamondPrice_Prediction\\app.py', reloading

@@ -1,0 +1,29 @@
+[ 2025-03-23 13:03:36,177 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-03-23 13:03:36,182 ] 97 werkzeug - INFO -  * Debugger PIN: 144-869-756
+[ 2025-03-23 13:04:11,771 ] 97 werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 13:04:11] "GET / HTTP/1.1" 200 -
+[ 2025-03-23 13:04:11,843 ] 97 werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 13:04:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-03-23 13:04:34,660 ] 97 werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 13:04:34] "GET /predict HTTP/1.1" 200 -
+[ 2025-03-23 13:04:52,842 ] 97 werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 13:04:52] "GET /predict HTTP/1.1" 200 -
+[ 2025-03-23 13:07:11,256 ] 97 werkzeug - INFO - 127.0.0.1 - - [23/Mar/2025 13:07:11] "GET / HTTP/1.1" 200 -
+[ 2025-03-23 13:12:06,914 ] 97 werkzeug - INFO - 10.0.0.14 - - [23/Mar/2025 13:12:06] "GET / HTTP/1.1" 200 -
+[ 2025-03-23 13:12:06,984 ] 97 werkzeug - INFO - 10.0.0.14 - - [23/Mar/2025 13:12:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-03-23 13:12:08,475 ] 97 werkzeug - INFO - 10.0.0.14 - - [23/Mar/2025 13:12:08] "GET / HTTP/1.1" 200 -
+[ 2025-03-23 13:12:15,929 ] 97 werkzeug - INFO - 10.0.0.14 - - [23/Mar/2025 13:12:15] "GET / HTTP/1.1" 200 -
+[ 2025-03-23 13:12:52,758 ] 97 werkzeug - INFO - 10.0.0.88 - - [23/Mar/2025 13:12:52] "GET / HTTP/1.1" 200 -
+[ 2025-03-23 13:13:06,959 ] 97 werkzeug - INFO - 10.0.0.88 - - [23/Mar/2025 13:13:06] "GET /predict HTTP/1.1" 200 -
+[ 2025-03-23 13:13:53,901 ] 97 werkzeug - INFO - 10.0.0.5 - - [23/Mar/2025 13:13:53] "GET /predict HTTP/1.1" 200 -
+[ 2025-03-23 13:13:54,059 ] 97 werkzeug - INFO - 10.0.0.5 - - [23/Mar/2025 13:13:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2025-03-23 13:14:09,148 ] 97 werkzeug - INFO - 10.0.0.14 - - [23/Mar/2025 13:14:09] "GET /predict HTTP/1.1" 200 -
+[ 2025-03-23 13:14:31,440 ] 67 root - INFO - Dataframe Gathered
+[ 2025-03-23 13:14:31,673 ] 28 root - INFO - Exception occured in prediction
+[ 2025-03-23 13:14:31,896 ] 97 werkzeug - INFO - 10.0.0.14 - - [23/Mar/2025 13:14:31] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2025-03-23 13:14:31,956 ] 97 werkzeug - INFO - 10.0.0.14 - - [23/Mar/2025 13:14:31] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2025-03-23 13:14:31,972 ] 97 werkzeug - INFO - 10.0.0.14 - - [23/Mar/2025 13:14:31] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2025-03-23 13:14:32,149 ] 97 werkzeug - INFO - 10.0.0.14 - - [23/Mar/2025 13:14:32] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2025-03-23 13:14:37,197 ] 67 root - INFO - Dataframe Gathered
+[ 2025-03-23 13:14:37,222 ] 28 root - INFO - Exception occured in prediction
+[ 2025-03-23 13:14:37,253 ] 97 werkzeug - INFO - 10.0.0.5 - - [23/Mar/2025 13:14:37] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2025-03-23 13:14:37,322 ] 97 werkzeug - INFO - 10.0.0.5 - - [23/Mar/2025 13:14:37] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2025-03-23 13:14:37,322 ] 97 werkzeug - INFO - 10.0.0.5 - - [23/Mar/2025 13:14:37] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2025-03-23 13:14:37,440 ] 97 werkzeug - INFO - 10.0.0.5 - - [23/Mar/2025 13:14:37] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2025-03-23 13:16:05,338 ] 97 werkzeug - INFO -  * Detected change in 'c:\\datascience\\kethan_projects\\fsdsregression-main\\app.py', reloading
