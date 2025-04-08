@@ -10,7 +10,7 @@ class PredictPipeline:
     def __init__(self):
         pass
 
-    def predict(self,features):
+    def predict(self,final_new_data):
         try:
             preprocessor_path=os.path.join('artifacts','preprocessor.pkl')
             model_path=os.path.join('artifacts','model.pkl')
@@ -18,8 +18,8 @@ class PredictPipeline:
             preprocessor=load_object(preprocessor_path)
             model=load_object(model_path)
 
-            data_scaled=preprocessor.transform(features)
-
+            data_scaled=preprocessor.transform(final_new_data)
+            #data_scaled1=preprocessor(features)  #KETAN TEST
             pred1=model.predict(data_scaled)
             return pred1
             

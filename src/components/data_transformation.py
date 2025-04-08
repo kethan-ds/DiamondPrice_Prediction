@@ -2,13 +2,13 @@ import sys
 from dataclasses import dataclass
 
 import numpy as np 
-import pandas as pd
+import pandas as pd 
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OrdinalEncoder,StandardScaler
 
-from src.components.data_ingestion import DataIngestion
+#from src.components.data_ingestion import DataIngestion
 from src.exception import CustomException
 from src.logger import logging
 import os
@@ -28,7 +28,8 @@ class DataTransformation:
             # Define which columns should be ordinal-encoded and which should be scaled
             categorical_cols = ['cut', 'color','clarity']
             numerical_cols = ['carat', 'depth','table', 'x', 'y', 'z']
-            
+            logging.info(f'Categorical Columns : {categorical_cols}')
+            logging.info(f'Numerical Columns : {numerical_cols}')
             # Define the custom ranking for each ordinal variable
             cut_categories = ['Fair', 'Good', 'Very Good','Premium','Ideal']
             color_categories = ['D', 'E', 'F', 'G', 'H', 'I', 'J']
@@ -45,7 +46,8 @@ class DataTransformation:
                 ]
 
             )
-
+             
+            
             # Categorigal Pipeline
             cat_pipeline=Pipeline(
                 steps=[
@@ -55,15 +57,15 @@ class DataTransformation:
                 ]
 
             )
-
+            
             preprocessor=ColumnTransformer([
             ('num_pipeline',num_pipeline,numerical_cols),
             ('cat_pipeline',cat_pipeline,categorical_cols)
             ])
-            
-            return preprocessor
-
+           
             logging.info('Pipeline Completed')
+            return preprocessor
+           
 
         except Exception as e:
             logging.info("Error in Data Trnasformation")
